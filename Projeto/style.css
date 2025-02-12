@@ -1,0 +1,44 @@
+/* Define o fundo da página */
+body {
+    background-color: #f4f4f4; /* Define a cor de fundo da página */
+    font-family: Arial, sans-serif; /* Define a fonte do texto */
+    text-align: center; /* Centraliza o conteúdo dentro do body */
+}
+
+/* Estiliza o contêiner principal */
+.container {
+    background-color: white; /* Define o fundo do contêiner como branco */
+    width: 50%; /* Define a largura do contêiner como 50% da tela */
+    margin: 50px auto; /* Define espaçamento externo (50px no topo e embaixo, centraliza horizontalmente) */
+    padding: 20px; /* Adiciona espaço interno dentro do contêiner */
+    border-radius: 10px; /* Arredonda os cantos do contêiner */
+    box-shadow: 0px 0px 10px gray; /* Adiciona uma sombra ao redor do contêiner */
+}
+
+/* Estiliza o título (h1) */
+h1 {
+    color: #333; /* Define a cor do texto como um cinza escuro */
+    font-size: 24px; /* Define o tamanho da fonte para 24px */
+}
+
+/* Estiliza o parágrafo */
+p {
+    font-size: 18px; /* Define o tamanho da fonte para 18px */
+    color: #555; /* Define a cor do texto como um cinza médio */
+}
+
+/* Estiliza o botão */
+button {
+    background-color: blue; /* Define a cor de fundo do botão */
+    color: white; /* Define a cor do texto do botão como branco */
+    padding: 10px 20px; /* Adiciona espaço interno no botão (10px acima/abaixo, 20px lados) */
+    border: none; /* Remove a borda padrão do botão */
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    cursor: pointer; /* Muda o cursor para uma mãozinha ao passar o mouse */
+    transition: background-color 0.3s; /* Adiciona um efeito de transição suave de 0.3s na mudança de cor */
+}
+
+/* Efeito ao passar o mouse no botão */
+button:hover {
+    background-color: darkblue; /* Altera a cor do botão para azul escuro ao passar o mouse */
+}
