@@ -1,65 +1,71 @@
-body{
-    color: white;
-    background-color: black;
-    font-family: Arial;
+/* Estilo geral do corpo da página */
+body {
+    color: white; /* Define a cor do texto como branca */
+    background-color: black; /* Define o fundo da página como preto */
+    font-family: Arial; /* Define a fonte padrão como Arial */
 }
 
-ul{
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    align-items: center;
-    padding: 16px;
-
+/* Estilo para listas não ordenadas */
+ul {
+    display: flex; /* Usa Flexbox para alinhar os itens da lista */
+    justify-content: space-between; /* Distribui os itens igualmente com espaço entre eles */
+    list-style-type: none; /* Remove os marcadores padrão da lista */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    padding: 16px; /* Adiciona um espaçamento interno de 16px */
 }
 
-a{
-    color: white;
-    
+/* Estilo para links */
+a {
+    color: white; /* Define a cor dos links como branca */
 }
 
+/* Estilo para imagens dentro do header */
 header img {
-  width: 150px;  
-  height: 150px;
-  border-radius: 50%;
-  border: 5px solid green;
+    width: 150px; /* Define a largura da imagem como 150px */
+    height: 150px; /* Define a altura da imagem como 150px */
+    border-radius: 50%; /* Torna a imagem circular */
+    border: 5px solid green; /* Adiciona uma borda verde de 5px */
 }
 
+/* Classe para centralizar texto */
 .center {
-    text-align: center;
+    text-align: center; /* Centraliza o texto horizontalmente */
 }
 
-h1{
-    color: #5bbe42;
+/* Estilo para títulos h1 */
+h1 {
+    color: #5bbe42; /* Define a cor do texto como um tom de verde */
 }
 
+/* Estilo para imagens dentro do footer */
 footer img {
-    width: 40px;
-    height: 40px;
-   
+    width: 40px; /* Define a largura da imagem como 40px */
+    height: 40px; /* Define a altura da imagem como 40px */
 }
 
-footer{
-    display: flex;
-    justify-content: center;
+/* Estilo geral do footer */
+footer {
+    display: flex; /* Usa Flexbox para alinhar os itens */
+    justify-content: center; /* Centraliza os itens horizontalmente */
 }
 
-footer a{
-    margin: 20px;
-    text-align: center;
+/* Estilo para links dentro do footer */
+footer a {
+    margin: 20px; /* Adiciona um espaçamento externo de 20px ao redor do link */
+    text-align: center; /* Centraliza o texto dentro do link */
 }
 
-footer p{
-    margin-top: 2px;
+/* Estilo para parágrafos dentro do footer */
+footer p {
+    margin-top: 2px; /* Adiciona uma margem superior de 2px */
 }
 
-
+/* Classe container para espaçamento interno */
 .container {
-    padding: 0px 50px;
+    padding: 0px 50px; /* Adiciona um espaçamento interno de 50px nas laterais */
 }
 
-a:hover{
-    color: green;
+/* Estilo para links quando o mouse passa por cima */
+a:hover {
+    color: green; /* Altera a cor do link para verde ao passar o mouse */
 }
-
-
