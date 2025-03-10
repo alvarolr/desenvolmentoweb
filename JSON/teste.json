@@ -1,0 +1,10 @@
+{
+    "nome": "Alvaro",
+    "idade": 30,
+    "esta_trabalhando": true,
+    "hobbies": [1, "abc"],
+    "detalhes_profissao": {
+        "profissao": "professor",
+        "empresa": "uninorte"
+    }
+}
